@@ -1,0 +1,28 @@
+{
+  "version": "0.1.0",
+  "name": "react-native-agile-ui",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zhijia/react-native-agile-ui.git"
+  },
+  "license": "MIT",
+  "description": "UI components for React Native，Embrace agile development",
+  "scripts": {
+
+  },
+  "dependencies": {
+
+  },
+  "keywords": [
+    "antd",
+    "agile",
+    "UI",
+    "react",
+    "native"
+  ],
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "author": "1498710037@qq.com"
+}
