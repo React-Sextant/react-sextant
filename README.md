@@ -8,6 +8,9 @@ but no eggs, more code readability, more free modification.
 
 We hope [Agile-UI]() to **not only** reduce development time, **but also** be highly customizable.
 
+## docs
+ - [InputItem 文本输入框](https://github.com/React-Sextant/react-native-agile-ui/tree/master/docs/input-item.md)
+
 ## License
 
  MIT
