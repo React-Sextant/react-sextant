@@ -1,9 +1,9 @@
 {
   "version": "0.1.0",
-  "name": "react-native-agile-ui",
+  "name": "react-sextant",
   "repository": {
     "type": "git",
-    "url": "git@github.com:zhijia/react-native-agile-ui.git"
+    "url": "git@github.com:zhijia/react-sextant.git"
   },
   "license": "MIT",
   "description": "UI components for React Native，Embrace agile development",
