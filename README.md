@@ -9,8 +9,14 @@ but no eggs, more code readability, more free modification.
 We hope [react-sextant]() to **not only** reduce development time, **but also** be highly customizable.
 
 ## docs
+
+#### Components
  - [InputItem 文本输入框](https://github.com/React-Sextant/react-sextant/tree/master/docs/input-item.md)
  - [RootView 根视图](https://github.com/React-Sextant/react-sextant/tree/master/docs/root-view.md)
+ 
+#### 辅助函数
+ - [_fetch 拓展fetch函数](https://github.com/React-Sextant/react-sextant/tree/master/docs/_fetch.md)
+
 ## License
 
- MIT
+ [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
