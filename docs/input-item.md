@@ -38,6 +38,7 @@ With extra custom view on the right side
 
 | option | description | type | default |
 |----|----|----|----|
+|`*`clearButtonMode|Add android support,[see the detail in TextInput](https://facebook.github.io/react-native/docs/textinput#clearbuttonmode)|String|"never"|
 |style|InputItem style|StyleSheet||
 |inputStyle|TextInput style|StyleSheet||
 |extra|node on the right side|React.Element||
