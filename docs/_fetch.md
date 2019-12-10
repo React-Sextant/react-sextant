@@ -38,3 +38,18 @@ task.then(()=>{ ... })
 task.cancel((err=> { ... }))
 ```
 
+### Query Params
+```jsx harmony
+_fetch("http://example.com/list",{
+    method:"GET",
+    query:{
+        page:1,
+        pageSize:10
+    }
+})
+
+// 相当于
+_fetch("http://example.com/list?pag=1&pageSize=10",{
+    method:"GET"
+})
+```
