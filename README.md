@@ -12,6 +12,7 @@ We hope [react-sextant]() to **not only** reduce development time, **but also** 
 
 #### Components
  - [InputItem 文本输入框](https://github.com/React-Sextant/react-sextant/tree/master/docs/input-item.md)
+ - [ModalView 模拟模态框](https://github.com/React-Sextant/react-sextant/tree/master/docs/modal-view.md)
  - [RootView 根视图](https://github.com/React-Sextant/react-sextant/tree/master/docs/root-view.md)
  
 #### 辅助函数
