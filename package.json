@@ -3,7 +3,7 @@
   "name": "react-sextant",
   "repository": {
     "type": "git",
-    "url": "git@github.com:zhijia/react-sextant.git"
+    "url": "https://github.com/React-Sextant/react-sextant.git"
   },
   "license": "MIT",
   "description": "UI components for React Native，Embrace agile development",
@@ -14,11 +14,10 @@
 
   },
   "keywords": [
-    "antd",
-    "agile",
-    "UI",
     "react",
-    "native"
+    "native",
+    "agile",
+    "UI"
   ],
   "files": [
     "lib"
