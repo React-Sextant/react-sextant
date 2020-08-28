@@ -1,6 +1,11 @@
 # react-sextant
 🐰️UI components for React Native，Embrace agile development
 
+# Install <a href="https://npmjs.org/package/@react-sextant/react-sextant"><img alt="npm version" src="http://img.shields.io/npm/v/@react-sextant/react-sextant.svg?style=flat-square"></a> <a href="https://npmjs.org/package/@react-sextant/react-sextant"><img alt="npm version" src="http://img.shields.io/npm/dm/@react-sextant/react-sextant.svg?style=flat-square"></a>
+```bash
+npm i @react-sextant/react-sextant
+```
+
 ## What is react-sextant?
 react-sextant is a UI Components for quickly and agile development of APP.
 Some of its component API design reference [ant-design-mobile]() , 

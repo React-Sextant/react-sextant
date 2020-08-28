@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "name": "react-sextant",
+  "name": "@react-sextant/react-sextant",
   "repository": {
     "type": "git",
     "url": "https://github.com/React-Sextant/react-sextant.git"
@@ -24,5 +24,6 @@
   ],
   "typings": "lib/index.d.ts",
   "main": "lib/index.js",
-  "author": "1498710037@qq.com"
+  "author": "https://github.com/1uokun",
+  "email": "1498710037@qq.com"
 }
