@@ -34,7 +34,7 @@ With extra custom view on the right side
 ```
 ## API
 
- - TextInput [props...](https://facebook.github.io/react-native/docs/0.59/textinput)
+ - TextInput [props...](https://reactnative.dev/docs/textinput)
 
 | option | description | type | default |
 |----|----|----|----|
