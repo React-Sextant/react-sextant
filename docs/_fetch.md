@@ -53,3 +53,33 @@ _fetch("http://example.com/list?pag=1&pageSize=10",{
     method:"GET"
 })
 ```
+### Add a promise where the request may be terminated
+```jsx harmony
+// eg:监听断网时结束请求
+import React from 'react';
+import {NetInfo} from 'react-native';
+import {_fetch} from "react-sextant";
+
+export default class extends React.Component {
+    componentDidMount() {
+        this.task = _fetch(url,{
+             method:"GET",
+             headers:{},
+             timeout:30000,
+             race:[
+                new Promise(function(resolve, reject){
+                  NetInfo.getConnectionInfo().then((connectionInfo) => {
+                    if(connectionInfo.type === 'none') reject(new Error('无网络连接'));
+                  });
+                })
+            ],
+          });
+
+        this.task.then().catch();
+    }
+
+    componentWillUnmount() {
+        this.task.cancel()
+    }
+}
+```
