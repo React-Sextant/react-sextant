@@ -13,7 +13,7 @@ import ModalView from 'react-sextant/lib/modal-view'
 ## Example
 Basic usage
 ```jsx harmony
-<ModalView animationType="slide" visible={this.state.visible}>
+<ModalView animationType="slide" visible={this.state.visible} onMaskPress={()=>{this.setState({visible:false})}}>
     <View style={{width:Dimensions.get("window").width,height:Dimensions.get("window").height,backgroundColor:'yellow'}}/>
 </ModalView>
 ```
@@ -55,6 +55,15 @@ Simulate `Action-Sheet`
 </ModalView>
 ```
 
+With Modal `transparent={true}` is best
+```jsx harmony
+<Modal transparent visible={this.state.visible}>
+    <ModalView visible>
+        ...
+    </ModalView>
+</Modal>
+```
+
 ## API
 
  - ModalView [props...](https://reactnative.dev/docs/modal)
@@ -65,3 +74,5 @@ Simulate `Action-Sheet`
 |background|Expansion of `transparent`|StyleSheet|`{backgroundColor: "black", opacity:0.4}`|
 |animationType|The animationType prop controls how the modal animates.|enum('none', 'slide', 'fade', 'spring', 'vibrate')|'none'|
 |animate|Expansion of `animationType`, A void to custom animation|void||
+|onRequestClose|Same as Modal's `onRequestClose`|void|return false|
+|onMaskPress|Handle mask's onPress|void||
