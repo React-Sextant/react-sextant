@@ -4,9 +4,9 @@ text input文本输入框
 
 ## Import
 ```jsx harmony
-import {InputItem} from 'react-sextant'
+import {InputItem} from '@react-sextant/react-sextant'
 //or
-import InputItem from 'react-sextant/lib/input-item'
+import InputItem from '@react-sextant/react-sextant/lib/input-item'
 ```
 ## Example
 Basic usage

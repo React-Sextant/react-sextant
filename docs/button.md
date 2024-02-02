@@ -4,9 +4,9 @@ button按钮
 
 ## Import
 ```jsx harmony
-import { Button } from 'react-sextant'
+import { Button } from '@react-sextant/react-sextant'
 //or
-import Button from 'react-sextant/lib/button'
+import Button from '@react-sextant/react-sextant/lib/button'
 ```
 ## Example
 

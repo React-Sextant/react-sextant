@@ -4,9 +4,9 @@ fetch拓展函数
 
 ## Import
 ```jsx harmony
-import { _fetch } from 'react-sextant'
+import { _fetch } from '@react-sextant/react-sextant'
 //or
-import _fetch from 'react-sextant/lib/common'
+import _fetch from '@react-sextant/react-sextant/lib/common'
 ```
 ## Example
 

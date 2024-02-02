@@ -6,9 +6,9 @@ modal view模拟模态框
 
 ## Import
 ```jsx harmony
-import {ModalView} from 'react-sextant'
+import {ModalView} from '@react-sextant/react-sextant'
 //or
-import ModalView from 'react-sextant/lib/modal-view'
+import ModalView from '@react-sextant/react-sextant/lib/modal-view'
 ```
 ## Example
 Basic usage
@@ -76,3 +76,4 @@ With Modal `transparent={true}` is best
 |animate|Expansion of `animationType`, A void to custom animation|void||
 |onRequestClose|Same as Modal's `onRequestClose`|void|return false|
 |onMaskPress|Handle mask's onPress|void||
+|destroyOnClose|Whether to unmount child components on onClose|boolean|false|

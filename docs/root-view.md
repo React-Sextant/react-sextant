@@ -6,9 +6,9 @@ root view根视图
 
 ## Import
 ```jsx harmony
-import {RootView} from 'react-sextant'
+import {RootView} from '@react-sextant/react-sextant'
 //or
-import RootView from 'react-sextant/lib/root-view'
+import RootView from '@react-sextant/react-sextant/lib/root-view'
 ```
 ## Example
 Basic usage
